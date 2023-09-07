@@ -13,7 +13,7 @@ jobs:
 
       - name: Start glue workflow
         run: |
-          aws glue start-workflow-run --workflow-name demo_work
+          aws glue start-workflow-run --name demo_work
     
           
         env:
