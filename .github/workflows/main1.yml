@@ -9,4 +9,4 @@ jobs:
     steps:
       - uses: aws-actions/aws-glue-actions@v1
         with:
-          workflow-name: my-workflow
+          workflow-name: demo_work
