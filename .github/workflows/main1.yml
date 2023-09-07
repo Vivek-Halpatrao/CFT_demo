@@ -1,0 +1,12 @@
+name: Run Glue Workflow
+on:
+  push:
+    branches:
+      - main
+jobs:
+  run-workflow:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: aws-actions/aws-glue-actions@v1
+        with:
+          workflow-name: my-workflow
