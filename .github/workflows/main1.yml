@@ -7,7 +7,7 @@ jobs:
   run-workflow:
     runs-on: ubuntu-latest
     steps:
-      - uses: aws-actions/aws-stepfunctions-v1@v1
+      - uses: actions/aws-cli@v2
         with:
           stateMachineName: demo_work
           
